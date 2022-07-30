@@ -1,0 +1,324 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/01bb52d2e7.js" crossorigin="anonymous"></script>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container card" id="card">
+        <div class="row">
+            <div class="col-6">
+                <h4 id="name">
+                    ProfileName
+
+                </h4>
+                <h6 class="small-text">
+                    125.7k Tweets
+                </h6>
+
+            </div>
+            <div class="col-6">
+
+                <div class="form-check form-switch padding-left-340 ">
+                    <label class="form-check-label" for="flexSwitchCheckDefault"> Light Theme </label>
+
+                    <input  onclick="myFunction()" class="form-check-input" type="chechbox" id="flexSwitchCheckDefault">
+
+
+                </div>
+
+            </div>
+            <div class="row ">
+
+                <div class="col-12">
+
+                    <div class="card " id="sub-card">
+                        <div class="card-header header " id="header">
+
+                            <img src="https://th.bing.com/th/id/OIP.aF3QnUTNVM9Co2gamvNWUAHaFj?w=273&h=205&c=7&r=0&o=5&dpr=1.5&pid=1.7" id="value3"
+                                alt="Girl in a jacket" class="profile-image">
+
+                        </div>
+                        <div class="row">
+                            <span>
+                                <button type="button" class="btn btn-light edit-profile-button" id="edit-button">Edit profile</button>
+
+                            </span>
+
+                        </div>
+                        <div class="card-body padding-top-80">
+                            <h5 class="card-title " id="value1">Profile Name</h5>
+                            <p class="card-subtitle small-text">
+                                @username
+                            </p>
+                            <p class="card-text">
+                                Your Bio put here
+
+                            </p>
+                            <p class="text-muted"><i class="fas fa-map-marker-alt me-3"></i> 
+                                <span id="value2">
+                                    Location
+
+
+                                </span>
+                                
+                                <span class="text-muted"><i class="fas fa-calendar me-3"></i> Join Since 2021</span>
+
+                            </p>
+                            <p>
+                                <span>
+                                    256
+                                </span>
+                                <span class="text-muted">
+                                    Following
+
+                                </span>
+
+
+
+                                <span>
+                                    256
+                                </span>
+                                <span class="text-muted">
+                                    Followers
+
+                                </span>
+                            </p>
+                            <div class="row justify-content-center">
+                                <div class="col-3">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a class="nav-link Active text-bold" href="#">Tweets</a>
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-3">
+                                    <a class="nav-link text-muted" href="#">Tweets and replies</a>
+
+                                </div>
+                                <div class="col-3">
+                                    <a class="nav-link text-muted" href="#">Media</a>
+
+                                </div>
+                                <div class="col-3">
+                                    <a class="nav-link text-muted" href="#">Likes</a>
+
+                                </div>
+
+                            </div>
+                            <hr>
+                            <img src="https://th.bing.com/th/id/OIP.aF3QnUTNVM9Co2gamvNWUAHaFj?w=273&h=205&c=7&r=0&o=5&dpr=1.5&pid=1.7" id="value4"
+                                class="images profile-image-sm ">
+
+
+                            <span class="profile-name" id="name2">
+                                Profile name 
+                                </span>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <span class="text-muted meta-data">
+                                    @Username .32m
+                                    <p class="padding-left">
+                                        Wikipedia's first edition and, as of 11 July 2022, has the most articles of any
+                                        edition, at 6,536,849. As of July 2022, 11% of articles in all Wikipedias belong
+                                        to the English-language edition; this share was more than 5…
+                                    </p>
+
+                                </span>
+
+                            </span>
+                            <div class="row padding-left">
+                                <div class="col">
+                                    <p class="text-muted"><i class="fas fa-comment-o me-3"></i> 567k
+
+
+                                </div>
+                                <div class="col">
+                                    <p class="text-muted"><i class="fas fa-retweet me-3"></i> 75k
+
+
+                                </div>
+                                <div class="col">
+                                    <p class="text-muted"><i class="fas fa-heart-o me-3"></i> 157
+
+
+                                </div>
+                                <div class="col">
+                                    <p class="text-muted"><i class="fas fa-map-marker-alt me-3"></i>
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row width">
+            <div class="dropdown padding-top-20">
+                <button  onclick="backGroundColor()" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
+<script>
+    const data = 
+{
+    name: 'Nadeen',
+    location: 'cairo,egypt',
+    image: 'https://th.bing.com/th/id/OIP.jryuUgIHWL-1FVD2ww8oWgHaHa?w=182&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7'
+}
+
+document.getElementById('value1').innerText = data.name;
+document.getElementById('value2').innerText = data.location;
+document.getElementById('value3').src = data.image;
+document.getElementById('value4').src = data.image;
+document.getElementById('name').innerText = data.name;
+document.getElementById('name2').innerText = data.name;
+
+function myFunction() {
+
+    var element = document.getElementById("header");
+element.style.backgroundColor = "gray";
+element.style.webkitTextFillColor="white"
+var element = document.getElementById("card");
+element.style.backgroundColor = "rgb(33, 28, 45)";
+element.style.webkitTextFillColor="white"
+
+var element = document.getElementById("sub-card");
+element.style.backgroundColor = "rgb(33, 28, 45)";
+var element = document.getElementById("edit-button");
+element.style.webkitTextFillColor="black"
+
+
+
+}
+function backGroundColor() {
+  var element = document.body
+  element.classList.toggle("red");
+}
+
+
+
+
+
+
+
+
+
+</script>
+<style>
+    .red{   
+        background-color:red;
+
+    }
+  
+.dark-mode {
+  background-color: black;
+}
+    .small-text {
+        font-size: 10px;
+    }
+
+    .width {
+        height: 200px;
+    }
+
+    .header {
+        height: 200px;
+        background-color: bisque;
+    }
+
+    .padding-top-20 {
+        padding-top: 20px;
+    }
+
+    .profile-name {
+        font-size: 25px;
+    }
+
+    .padding-left {
+        padding-left: 88px;
+        margin-top: -20px;
+    }
+
+    .padding-left-340 {
+        padding-left: 340px;
+
+    }
+
+    .profile-image {
+        border-radius: 50%;
+        width: 12%;
+        height: 150px;
+        border: solid 3px;
+        margin-top: 115px;
+        border-color: rgb(184, 186, 183);
+
+    }
+
+    .meta-data {
+        font-size: 15px;
+    }
+
+    .profile-image-sm {
+        border-radius: 50%;
+        width: 8%;
+        height: 100px;
+        border: solid 3px;
+        margin-top: 30px;
+        border-color: rgb(184, 186, 183);
+
+    }
+
+    .padding-top-80 {
+        padding-top: 80px;
+    }
+
+    .edit-profile-button {
+        margin-left: 80%;
+        border: solid;
+        border-radius: 20px;
+        width: 150px;
+        border-color: lightgray;
+        background-color: white;
+        margin-top: 5px;
+    }
+
+    .text-bold {
+        font-weight: 700;
+        border-bottom: 5px solid #5bc0eb;
+
+    }
+</style>
